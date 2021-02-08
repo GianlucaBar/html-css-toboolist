@@ -14,7 +14,6 @@ body{
 /* inizio header */
 header{
     background-color: white;
-    height: 100px;
     padding: 20px;
 }
 
@@ -37,11 +36,11 @@ main{
     width: 70%;
     margin: 30px auto;
     border-radius: 5px;
+    padding: 15px;
 }
 
 /* inizio barra strumenti */
 nav{
-    height: 50px;
     border-bottom: 2px solid #f6f8f9;
 }
 .bottoni{
@@ -51,18 +50,18 @@ nav{
         
 }
 .btn{
-  
-    height: 30px;
+    padding: 7px;
     border: 1px solid black;
     display: inline-block;
     border-radius: 5px;
-    
-}
+ }
+
 .task{
     background-color: rgb(6, 106, 221);
     color: white;
     border: 1px solid rgb(0, 89, 255);
 }
+
 .selection{
     background-color: white;
     color: lightgrey;
@@ -72,8 +71,6 @@ nav{
 .btn a{
     text-decoration: none;
     color: inherit;
-    line-height: 30px;
-    padding: 5px;
 }
 /* fine barra strumenti */
 
@@ -91,11 +88,13 @@ ul{
     vertical-align: middle;
     height: 15px;
 }
+
 li h3{
-                                    /* !!!!!spazio tra entity e h3 */
     display: inline-block;     
     vertical-align: middle;
     font-size: 28px;
+    padding: 0;
+    margin-left: -10px;
 }
 
 .titles li{
@@ -112,11 +111,12 @@ li h3{
     text-align: center;
     line-height: 20px;
     display: inline-block;
-    margin-left: 7px;     /*  PERCHE */
+    margin-left: 7px;     
     
 }
+
 .task-entry{
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .todo{
