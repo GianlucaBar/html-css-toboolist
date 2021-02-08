@@ -1,0 +1,150 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+/* fine common */
+
+/* inizio header */
+header{
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+header img{
+    vertical-align: middle;
+    
+}
+/* fine header */
+
+/* main */
+main{
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+}
+
+/* inizio barra strumenti */
+nav{
+    height: 50px;
+    border-bottom: 2px solid #f6f8f9;
+}
+.bottoni{
+    margin: 10px auto 10px
+    30px;
+    display: inline-block;
+        
+}
+.btn{
+  
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    
+}
+.task{
+    background-color: rgb(6, 106, 221);
+    color: white;
+    border: 1px solid rgb(0, 89, 255);
+}
+.selection{
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+.btn a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 30px;
+    padding: 5px;
+}
+/* fine barra strumenti */
+
+/* inizio liste  */
+ul{
+    list-style-type: none;
+    
+}
+
+.titles{
+    margin: 20px auto 20px 20px;
+}
+.entity{
+    font-size: 30px;
+    vertical-align: middle;
+    height: 15px;
+}
+li h3{
+                                    /* !!!!!spazio tra entity e h3 */
+    display: inline-block;     
+    /* vertical-align: middle; */
+    margin: 0;
+    font-size: 28px;
+}
+
+.titles li{
+    margin-top: 20px;
+}
+
+.done{
+    font-weight: bold;
+    color: rgb(1, 160, 67);
+    height: 20px;
+    width: 20px; 
+    border: 1px solid rgb(21, 107, 21);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 7px;     /*  PERCHE */
+    
+}
+.task-entry{
+    line-height: 40px;
+}
+
+.todo{
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+    height: 20px;
+    width: 20px; 
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    display: inline-block;
+    margin-left: 7px; 
+    vertical-align: middle;
+}
+
+.textlist{
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/* tag voci  */
+.tag{
+    height: 25px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+/* fine tag voci  */
+/* fine liste  */
